@@ -2,7 +2,7 @@ import world
 from player import Player
 
 def play():
-    playerName = input("\nEnter Player Name: ")
+    playerName = input("\nEnter Player Nam: ")
     print("\nWelcome to the Prison")
     print("Your mission is to kill right criminal who did crime.")
     print("\n+++++ Choose Game Level +++++\n")
