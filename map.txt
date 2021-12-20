@@ -1,0 +1,5 @@
+|EmptyCavePath|EmptyCavePath|EmptyCavePath|
+|EmptyCavePath|PrsionRoom1|EmptyCavePath|
+|PrsionRoom4|StartingRoom|PrsionRoom2|
+|EmptyCavePath|PrsionRoom3|EmptyCavePath|
+|EmptyCavePath|EmptyCavePath|EmptyCavePath|
