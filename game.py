@@ -2,7 +2,7 @@ import world
 from player import Player
 
 def play():
-    playerName = input("\nEnter Player Nam: ")
+    playerName = input("\nEnter Player Name: ")
     print("\nWelcome to the Prison")
     print("Your mission is to kill right criminal who did crime.")
     print("\n+++++ Choose Game Level +++++\n")
@@ -20,7 +20,7 @@ def play():
     #These lines load the starting room and display the text
     room = world.tile_exists(player.location_x, player.location_y)
     print(room.intro_text())
-    print("\nChoose an move where you want to go:\n")
+    print("Choose an move where you want to go:\n")
 
     while player.is_alive() and not player.victory:
         room = world.tile_exists(player.location_x, player.location_y)
@@ -30,7 +30,7 @@ def play():
             available_weapons = room.available_weapons()
             for action in available_weapons:
                 print(action)
-            action_input = input('Action: ')
+            action_input = input('\nAction: ')
             for action in available_weapons:
                 if action_input == action.hotkey:
                     player.do_action(action, **action.kwargs)

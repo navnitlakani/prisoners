@@ -46,7 +46,7 @@ class Player():
         
         if not enemy.is_alive():
             print("You killed {}!".format(enemy.name))
-            print("\nKudos! ", self.name, " won the game\n\n")
+            print("\nKudos!",self.name,"Won the Game\n\n")
             self.victory = True
         else:
             print("{} HP is {}.".format(enemy.name, enemy.hp))
