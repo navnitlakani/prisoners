@@ -66,7 +66,7 @@ class PrsionRoom(MapTile):
 
     def available_weapons(self):
         if self.enemy.is_alive():
-            print("\nChoose weapon to kill criminal:\n")
+            print("\nYou choose right criminal. Now choose weapon to kill criminal:\n")
             return [
                 weapons.AttackGun(enemy=self.enemy, weapon=items.Gun()),
                 weapons.AttackStick(enemy=self.enemy, weapon=items.Stick()),
