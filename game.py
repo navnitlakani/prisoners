@@ -16,7 +16,7 @@ def play():
         print("\nYou choose Survival level.")
     else:  
         print("\nYou choose Killer Moves level.")
-
+ 
     #These lines load the starting room and display the text
     room = world.tile_exists(player.location_x, player.location_y)
     print(room.intro_text())
