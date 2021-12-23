@@ -15,7 +15,7 @@ class MoveNorth(Action):
     def __init__(self):
         super().__init__(method=Player.move_north, name='Move north', hotkey='n')
  
- 
+
 class MoveSouth(Action):
     def __init__(self):
         super().__init__(method=Player.move_south, name='Move south', hotkey='s')

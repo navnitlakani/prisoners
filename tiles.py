@@ -74,7 +74,7 @@ class PrsionRoom(MapTile):
             ]
         else:
             return self.adjacent_moves()
-
+            
 class EmptyCavePath(MapTile):
     def intro_text(self):
         return """

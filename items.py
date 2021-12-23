@@ -4,7 +4,7 @@ class Item():
     def __init__(self, name, description):
         self.name = name   # attribute of the Item class and any subclasses
         self.description = description # attribute of the Item class and any subclasses
-     
+      
     # __str__ method is used to print the object
     def __str__(self):
         return "{}\n=====\n{}\n".format(self.name, self.description)

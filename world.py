@@ -8,7 +8,7 @@ def load_tiles(level):
         file = 'map.txt'
     else:
         file = 'map2.txt' 
-        
+       
     with open(file, 'r') as f:
         rows = f.readlines()
     x_max = len(rows[0].split('|')) # Assumes all rows contain the same number of tabs

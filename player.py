@@ -43,7 +43,7 @@ class Player():
          
         print("\nYou use {} against {}!\n".format(weapon.name, enemy.name))
         enemy.hp -= weapon.damage
-        
+      
         if not enemy.is_alive():
             print("You killed {}!".format(enemy.name))
             print("\nKudos!",self.name,"Won the Game\n\n")

@@ -3,4 +3,3 @@
 |PrsionRoom4|StartingRoom|PrsionRoom2|
 |EmptyCavePath|PrsionRoom3|EmptyCavePath|
 |EmptyCavePath|EmptyCavePath|EmptyCavePath|
- 
