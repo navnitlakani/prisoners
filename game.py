@@ -1,4 +1,5 @@
 import world
+from player import Player
 from playsound import playsound
 
 def play():
@@ -39,3 +40,4 @@ def play():
 
 if __name__ == "__main__":
     playsound('prisoner-music.mp3')
+    play()
