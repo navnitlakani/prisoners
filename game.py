@@ -1,8 +1,8 @@
 import world
-from player import Player
+from playsound import playsound
 
 def play():
-    playerName = input("\nEnter Player Name: ")
+    playerName = input("\nEnter Player Name:")
     print("\nWelcome to the Prison")
     print("Your mission is to kill right criminal who did crime.")
     print("\n+++++ Choose Game Level +++++\n")
@@ -36,6 +36,6 @@ def play():
                     player.do_action(action, **action.kwargs)
                     break
 
- 
+
 if __name__ == "__main__":
-    play() 
+    playsound('prisoner-music.mp3')
