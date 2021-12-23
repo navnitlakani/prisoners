@@ -12,7 +12,7 @@ def play():
     level = input("Choose Game Level: ")
     world.load_tiles(level)
     player = Player(playerName)
- 
+
     if level  == '1':
         print("\nYou choose Survival level.")
     else:  
