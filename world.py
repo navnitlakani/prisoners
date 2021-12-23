@@ -7,7 +7,7 @@ def load_tiles(level):
     if level == '1':
         file = 'map.txt'
     else:
-        file = 'map2.txt'
+        file = 'map2.txt' 
         
     with open(file, 'r') as f:
         rows = f.readlines()

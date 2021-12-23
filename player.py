@@ -40,7 +40,7 @@ class Player():
             return
 
         enemy.attacked = True
-        
+         
         print("\nYou use {} against {}!\n".format(weapon.name, enemy.name))
         enemy.hp -= weapon.damage
         

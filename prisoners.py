@@ -9,7 +9,7 @@
     
     def isAttacked(self):
         return self.attacked
-
+ 
 class Prisoner1(Prisoner):
     def __init__(self):
         super().__init__(name="Prisoner1", hp=100)

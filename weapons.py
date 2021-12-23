@@ -10,7 +10,7 @@ class Action():
  
     def __str__(self):
         return "{}: {}".format(self.hotkey, self.name)
-
+ 
 class MoveNorth(Action):
     def __init__(self):
         super().__init__(method=Player.move_north, name='Move north', hotkey='n')

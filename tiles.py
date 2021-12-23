@@ -62,7 +62,7 @@ class PrsionRoom(MapTile):
             else:
                 the_player.hp = 0   
                 print("\nYou choose wrong clue. Player",the_player.name,"Died. Game Over!\n")   
-        
+         
 
     def available_weapons(self):
         if self.enemy.is_alive():
